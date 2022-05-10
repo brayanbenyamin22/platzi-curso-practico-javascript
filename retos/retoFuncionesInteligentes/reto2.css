@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    height: 80px;
+    /* background-color: aquamarine; */
+}
+header h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+header p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+main {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-content: center;
+}
+.formulario {
+    width: 250px;
+    height: 230px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 6px solid #0093E9;
+}
+.form-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.form-box label {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.form-box input {
+    height: 25px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    border: 2px solid rgb(56, 209, 233);
+    border-radius: 5px;
+}
+
+.boton{
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: bold ;
+}
+.boton {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
+
+.boton {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    /* text-transform: uppercase; */
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 12px;
+}
+
+.boton:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+}
+
+.mensaje {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 35px;
+}
